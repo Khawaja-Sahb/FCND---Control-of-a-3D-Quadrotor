@@ -1,7 +1,7 @@
 # FCND-Control-of-a-3D-Quadrotor
 Third project in the Flying Car Nanodegree.
 
-The goal of this project is to design and build a cascade PID controller, which will control the quadrotors to fly the desired trajectory in the 3D environment. The PID architecture is as follows:
+The goal of this project is to design and build a cascaded PID controller, which will control a quadrocopter to fly a trajectory in the 3D environment. The PID architecture is as follows:
 ![PID Architecture.](3d-control-arch.png)
 
 This page contains the completed C++ controller `QuadController.cpp` and the associated gains `QuadControlParams.txt`. The page is structured following the projects rubric. The C++ solution code is given under each section. The implementation follows the excerise python code developed in the course.
