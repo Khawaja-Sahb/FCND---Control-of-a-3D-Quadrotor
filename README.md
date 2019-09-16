@@ -10,7 +10,7 @@ For more details of the project as well as introduction to the setup can be foun
 https://github.com/udacity/FCND-Controls-CPP#the-tasks.
 
 ## Motor commands
-Although in the rubric Motor commands appear at last, they are key in all Scenarios there I want to show them upfront. The thrust and moments are converted to the appropriate 4 different desired thrust forces for the moments. 
+Although in the rubric Motor Commands appear at last, they are key in all Scenarios. Therefore I want to show them upfront. The thrust and moments are converted to the appropriate 4 different desired thrust forces for the moments. 
 
 	float l = L / sqrt(2.f); // perpendicular distance to axes
 	float p_bar = momentCmd.x / l; 
